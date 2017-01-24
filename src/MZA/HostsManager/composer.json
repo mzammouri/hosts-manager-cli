@@ -1,0 +1,22 @@
+{
+  "name": "mzammouri/hosts-manager",
+  "description": "Hosts Manager",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "mzammouri",
+      "email": "mohammed.zammouri@gmail.com"
+    }
+  ],
+  "require": {
+    "symfony/console": "^3.2",
+    "symfony/validator": "^3.2"
+  },
+  "autoload": {
+    "psr-4": { "MZA\\HostsManager\\": "" },
+    "exclude-from-classmap": [
+      "/Tests/"
+    ]
+  }
+}
