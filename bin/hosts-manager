@@ -5,7 +5,7 @@ require __DIR__ . '/../vendor/autoload.php';
 
 use Symfony\Component\Console\Application;
 
-$application = new Application();
+$application = new Application('Hosts Manager Cli Tools','1.0.0');
 
 $application->add(new \MZA\HostsManager\Command\HostsListCommand());
 $application->add(new \MZA\HostsManager\Command\HostsAddCommand());
