@@ -1,6 +1,6 @@
 {
-  "name": "mzammouri/hosts-manager",
-  "description": "Hosts Manager",
+  "name": "mzammouri/hosts-manager-cli",
+  "description": "Hosts Manager Cli Tools",
   "minimum-stability": "stable",
   "license": "proprietary",
   "authors": [
